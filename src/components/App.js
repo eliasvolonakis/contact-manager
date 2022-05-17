@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import { uuid } from 'uuidv4';
+import uuid from 'react-uuid';
 import './App.css';
 import Header from './Header';
 import AddContact from './AddContact';
