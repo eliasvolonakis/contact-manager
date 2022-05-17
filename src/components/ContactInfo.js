@@ -12,10 +12,13 @@ const ContactInfo = (props) => {
             <div className="header">{name}</div>
             <div>{email}</div>
         </div>
-        <i className="trash icon" 
-        style={{color: "red", marginTop: "7px"}}></i>
+        <i 
+            className="trash icon" 
+            style={{color: "black", marginTop: "7px"}}
+            onClick={() => props.clickHandler(id)}
+        ></i>
     </div>
     );
 };
 
-export default ContactInfo
+export default ContactInfo;
